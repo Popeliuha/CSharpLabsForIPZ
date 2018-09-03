@@ -1,0 +1,7 @@
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\bin\Debug\Laba1.exe
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\bin\Debug\Laba1.pdb
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\obj\Debug\Laba1.exe
+C:\Users\npopel\Downloads\Sharp\Laba1\Laba1\obj\Debug\Laba1.pdb
