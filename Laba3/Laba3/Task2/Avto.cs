@@ -15,6 +15,16 @@ namespace Laba3.Task2
             this.VheelsCount = VheelsCount;
         }
 
+        public override string Show()
+        {
+            return $"Train is called {Name} and has speed {Speed}. It has {VheelsCount} vheels.";
+        }
+
+        ~Avto()
+        {
+            Console.WriteLine("Destructor");
+        }
+
         public void Beep()
         {
             Console.WriteLine("Car beeps.");

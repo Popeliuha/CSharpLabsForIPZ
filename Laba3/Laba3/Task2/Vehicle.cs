@@ -24,5 +24,6 @@ namespace Laba3.Task2
         {
             Console.WriteLine("Vehicle stops.");
         }
+        public abstract string Show();
     }
 }

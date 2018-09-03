@@ -15,5 +15,15 @@ namespace Laba3.Task2
             this.Name = Name;
             this.Age = Age;
         }
+
+        ~Person()
+        {
+            Console.WriteLine("Destructor");
+        }
+
+        public string Show()
+        {
+            return $"Person is called {Name} and is {Age} years old.";
+        }
     }
 }
