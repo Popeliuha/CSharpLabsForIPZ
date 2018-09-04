@@ -8,8 +8,7 @@ namespace Laba5
 {
     public class Commertial : Software
     {
-        public DateTime DateOfInstalation { get; set; }
-        public int TimeToUse { get; set; }
+        
         public Commertial(string Name, string Developer, DateTime DateOfInstalation, int TimeToUse) : base(Name, Developer)
         {
             this.DateOfInstalation = DateOfInstalation;
@@ -17,14 +16,21 @@ namespace Laba5
         }
 
 
-        public override bool CheckIfCanUse(DateTime current)
+        public override bool CheckIfCanUse()
         {
-            throw new NotImplementedException();
+            if (DateOfInstalation.Year + TimeToUse <= DateTime.Now.Year)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public override void ShowInfo()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Name is {Name}. developer is {Developer}. Date of instalation is {DateOfInstalation} and time to use is {TimeToUse}.");
         }
     }
 }

@@ -10,12 +10,14 @@ namespace Laba5
     {
         public string Name { get; set; }
         public string Developer { get; set; }
+        public DateTime DateOfInstalation { get; set; }
+        public int TimeToUse { get; set; }
         public Software(string Name, string Developer)
         {
             this.Name = Name;
             this.Developer = Developer;
         }
         public abstract void ShowInfo();
-        public abstract bool CheckIfCanUse(DateTime current);
+        public abstract bool CheckIfCanUse();
     }
 }

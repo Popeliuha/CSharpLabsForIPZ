@@ -12,7 +12,7 @@ namespace Laba5
         {
         }
 
-        public override bool CheckIfCanUse(DateTime current)
+        public override bool CheckIfCanUse()
         {
             return true;
         }
