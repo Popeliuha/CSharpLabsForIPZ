@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Laba3.Task2
 {
-    public abstract class Vehicle
+    public abstract class Vehicle : IRide, IStop
     {
-        public string Name {get; set;}
+        public string Name { get; set; }
         public double Speed { get; set; }
 
         public Vehicle(string Name, double Speed)

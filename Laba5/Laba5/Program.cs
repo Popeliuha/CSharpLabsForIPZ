@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Laba5
 {
-    class Program
+    class Program : IEnumerable, IEnumerator
     {
+        public object Current => throw new NotImplementedException();
+
         static void Main(string[] args)
         {
             Software a = new Commertial("Tery", "Ivan", new DateTime(2016, 12, 02), 3);
@@ -51,6 +54,26 @@ namespace Laba5
                 }
                 Console.WriteLine("Input year when you want to use: ");
             }
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool MoveNext()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Reset()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
 }

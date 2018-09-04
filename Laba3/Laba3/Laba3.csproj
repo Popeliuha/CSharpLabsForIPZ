@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task2\Avto.cs" />
     <Compile Include="Task2\IExpress.cs" />
+    <Compile Include="Task2\IRide.cs" />
+    <Compile Include="Task2\IStop.cs" />
     <Compile Include="Task2\Person.cs" />
     <Compile Include="Task2\Train.cs" />
     <Compile Include="Task2\Vehicle.cs" />
